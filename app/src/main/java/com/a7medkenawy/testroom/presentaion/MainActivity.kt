@@ -1,7 +1,8 @@
-package com.a7medkenawy.testroom
+package com.a7medkenawy.testroom.presentaion
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.a7medkenawy.testroom.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

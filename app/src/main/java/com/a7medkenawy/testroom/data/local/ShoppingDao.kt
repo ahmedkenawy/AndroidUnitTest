@@ -1,4 +1,4 @@
-package com.a7medkenawy.testroom.local.data
+package com.a7medkenawy.testroom.data.local
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
@@ -19,5 +19,5 @@ interface ShoppingDao {
     fun getAllShoppingItems(): LiveData<List<ShoppingItem>>
 
     @Query("select sum(price*amount) from shoppingItem_table")
-    fun getAllShoppingItemsPrice(): LiveData<List<Float>>
+    fun getAllShoppingItemsPrice(): LiveData<Float>
 }

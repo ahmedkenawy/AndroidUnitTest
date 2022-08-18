@@ -1,4 +1,4 @@
-package com.a7medkenawy.testroom.local.data
+package com.a7medkenawy.testroom.data.local
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
